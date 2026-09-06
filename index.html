@@ -24,17 +24,19 @@
       text-decoration: none; color: #061018; background: #5eead4; margin: .4rem 0;
     }
     .btn.secondary { background: #7dd3fc; }
+    .btn.alt { background: #a78bfa; }
     .btn:hover { filter: brightness(1.05); }
-    small { color: #7a8a9c; display: block; margin-top: 1rem; }
+    small { color: #7a8a9c; display: block; margin-top: 1rem; line-height: 1.4; }
   </style>
 </head>
 <body>
   <main class="card">
     <h1>SHARAKO M1</h1>
-    <p>Debug APK (~3.2 MB). Served from this site — not a CDN proxy.</p>
-    <a class="btn" href="./SHARAKO-M1-debug.apk" download="SHARAKO-M1-debug.apk">Download APK</a>
-    <a class="btn secondary" href="./download/app.bin" download="SHARAKO-M1-debug.apk">Download (.bin fallback)</a>
-    <small>If Android blocks .apk links, use the .bin fallback, then rename to .apk after download.</small>
+    <p>Debug APK (~3.2 MB). Primary link is origin-hosted on Vercel (not jsDelivr).</p>
+    <a class="btn" href="https://sharako-m1-openai.vercel.app/SHARAKO-M1-debug.apk" download="SHARAKO-M1-debug.apk">Download APK (recommended)</a>
+    <a class="btn secondary" href="./SHARAKO-M1-debug.apk" download="SHARAKO-M1-debug.apk">Mirror APK (this site)</a>
+    <a class="btn alt" href="./download/app.bin" download="SHARAKO-M1-debug.apk">.bin fallback (rename to .apk)</a>
+    <small>If Chrome says Not Found on old apk-dl links, ignore those — they were proxying a broken CDN. Use the recommended button above.</small>
   </main>
 </body>
 </html>
