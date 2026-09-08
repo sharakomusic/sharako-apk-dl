@@ -1,7 +1,7 @@
-# SHARAKO APK 1028
+# SHARAKO APK
 
-Install: https://sharakomusic.github.io/sharako-apk-dl/download/SHARAKO-1028.apk
+Install: https://sharakomusic.github.io/sharako-apk-dl/download/SHARAKO-1031.apk
 
-web_url: https://sharakomusic.github.io/sharako-apk-dl/spa/?v=1028
+web_url: https://sharako-live.vercel.app/?v=1031
 
-versionCode 1028 / versionName 1.0.28 — cache-bust SPA load after path rewrite fix (ff4645a).
+versionCode 1031 / 1.0.31 — volume MediaSession VOICE_CALL+ALARM, wake unstick, Fix Allow all.
