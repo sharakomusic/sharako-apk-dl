@@ -1,1 +1,42 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=refresh content="0;url=app.html"><title>SHARAKO</title></head><body><a href=app.html>Open SHARAKO</a></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SHARAKO — Download</title>
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: #0b0f14; color: #e8eef5;
+    }
+    .card {
+      width: min(440px, 92vw); padding: 2rem; border-radius: 16px;
+      background: #121821; border: 1px solid #243041; text-align: center;
+      box-shadow: 0 12px 40px rgba(0,0,0,.45);
+    }
+    h1 { margin: 0 0 .5rem; font-size: 1.5rem; }
+    p { margin: 0 0 1.25rem; color: #9fb0c3; line-height: 1.45; }
+    .btn {
+      display: inline-block; width: 100%; box-sizing: border-box;
+      padding: 1rem 1.25rem; border-radius: 12px; font-size: 1.15rem; font-weight: 700;
+      text-decoration: none; color: #061018; background: #5eead4; margin: .4rem 0;
+    }
+    .btn.secondary { background: #7dd3fc; }
+    .btn.alt { background: #a78bfa; }
+    .btn:hover { filter: brightness(1.05); }
+    small { color: #7a8a9c; display: block; margin-top: 1rem; line-height: 1.4; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>SHARAKO</h1>
+    <p>Debug APK v1017 (~3.2 MB). WebView loads https://sharako-m1-openai.vercel.app (text/html). Primary link is origin-hosted on Vercel (not jsDelivr HTML).</p>
+    <a class="btn" href="./SHARAKO-OPENAI-MAIN-debug.apk" download="SHARAKO-OPENAI-MAIN-debug.apk">Download APK (recommended)</a>
+    <a class="btn secondary" href="./SHARAKO-OPENAI-MAIN-debug.apk" download="SHARAKO-OPENAI-MAIN-debug.apk">Mirror APK (this site)</a>
+    <a class="btn alt" href="./download/app.bin" download="SHARAKO-OPENAI-MAIN-debug.apk">.bin fallback (rename to .apk)</a>
+    <small>Never point the Android web_url at jsDelivr HTML — APK CDN is for the .apk file only.</small>
+  </main>
+</body>
+</html>
