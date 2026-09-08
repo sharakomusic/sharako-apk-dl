@@ -1,7 +1,7 @@
-# SHARAKO APK 1025
+# SHARAKO APK 1028
 
-Install: https://sharakomusic.github.io/sharako-apk-dl/download/SHARAKO-1025.apk
+Install: https://sharakomusic.github.io/sharako-apk-dl/download/SHARAKO-1028.apk
 
-web_url: https://sharako-m1-openai.vercel.app
+web_url: https://sharakomusic.github.io/sharako-apk-dl/spa/?v=1028
 
-versionCode 1025 — GH Pages used for APK download only (not WebView SPA host).
+versionCode 1028 / versionName 1.0.28 — cache-bust SPA load after path rewrite fix (ff4645a).
